@@ -1,10 +1,10 @@
 import cv2
 
-source  = input('enter the name of image ')
+source  = input('enter the name of image with extension ')
 
 # image_name_without_extension = source.rpartition('.')[0]  #this code can also be used to get image name without extension
 
-extension = input('enter the extension (with a "." )')
+extension = input('enter the extension (with a "." ) ')
 destination = f'new{source}.jpg'
 scale_percent = int(input("Enter the scaling percentage "))
 
